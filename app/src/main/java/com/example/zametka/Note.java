@@ -1,6 +1,6 @@
 package com.example.zametka;
 
-public class Note {
+public class Note {                       //класс представляет объект заметки. Он содержит поля для заголовка и содержимого заметки
     private String title;
     private String content;
 
@@ -28,7 +28,5 @@ public class Note {
     @Override
     public String toString() {
         return title; // Вернуть только заголовок заметки
-        // Или, если вы хотите отобразить и заголовок и содержимое, то можно использовать:
-        // return title + ": " + content;
     }
 }
